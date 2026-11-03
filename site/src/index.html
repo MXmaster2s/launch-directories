@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launch Directories: free places to list your app, MCP server or AI tool</title>
+<meta name="description" content="You built the app. Where do you launch it for free? {{COUNT}} free listing places for apps, MCP servers, AI tools and websites, and what each one asks in return. Or tell your AI agent to check this site.">
+<link rel="canonical" href="{{SITE}}/">
+<meta name="theme-color" content="#f4f6fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<meta property="og:site_name" content="Launch Directories">
+<meta property="og:title" content="You built the app. Where do you launch it for free?">
+<meta property="og:description" content="Every free place to list your app, MCP server or AI tool, and what each one asks in return.">
+<meta property="og:image" content="{{SITE}}/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="{{SITE}}/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/json" href="/directories.json" title="The list as JSON">
+<link rel="stylesheet" href="/site.css?v={{VERSION}}">
+<script src="/site.js?v={{VERSION}}" defer></script>
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/"><img src="/icon-48.png" alt="" width="24" height="24"> Launch Directories</a>
+    <a class="nav-link" href="#agents">For agents</a>
+    <a class="nav-link" href="{{REPO}}" rel="noopener" target="_blank">GitHub</a>
+    <a class="nav-cta" href="#directories">Browse listing places</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img class="hero-icon" src="/icon-208.png" alt="" width="104" height="104">
+  <p class="eyebrow">Free listing directories</p>
+  <h1>You've built the app.<br> Now, where do you launch it for free?</h1>
+  <p class="sub">Just tell your AI agent to check this website, and it will do everything.</p>
+  <a class="button" href="#directories">Browse listing places</a>
+</header>
+
+<section id="directories" class="section">
+  <div class="list-head">
+    <h2>What have you made?</h2>
+  </div>
+
+  <div class="filters" data-filters hidden>
+    <div class="chips" role="group" aria-label="What you have made">
+{{TAKES_CHIPS}}
+    </div>
+    <div class="chips small" role="group" aria-label="Only show">
+      <button type="button" class="chip toggle" aria-pressed="false" data-toggle="no-account">No account</button>
+      <button type="button" class="chip toggle" aria-pressed="false" data-toggle="no-badge">No badge</button>
+      <button type="button" class="chip toggle" aria-pressed="false" data-toggle="listed">{{PRODUCT}} is listed</button>
+    </div>
+    <p class="count" data-count aria-live="polite"></p>
+  </div>
+
+  <div class="cards" data-cards>
+{{CARDS}}
+  </div>
+  <p class="empty" data-empty hidden>Nothing matches. Loosen a filter.</p>
+
+</section>
+
+<section id="agents" class="section reveal">
+  <div class="band">
+    <div>
+      <h2>Let your agent do it.</h2>
+      <p class="section-sub">Give it this. It reads the list, picks the places, and shows you each submission before sending.</p>
+    </div>
+    <div class="band-side">
+      <pre class="prompt" data-prompt>Read {{SITE}}/agents.md and {{SITE}}/directories.json, then plan free listings for my product: &lt;name and site&gt;.</pre>
+      <button type="button" class="button small" data-copy hidden>Copy</button>
+      <ul class="links">
+        <li><a href="/directories.json">directories.json</a></li>
+        <li><a href="/agents.md">agents.md</a></li>
+        <li><a href="/llms.txt">llms.txt</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contribute" class="section center reveal">
+  <h2>Help build this list.</h2>
+  <p class="section-sub">Know a place that is missing, or one that has changed? Add it on GitHub. A pull request or a short issue is enough.</p>
+  <div class="actions">
+    <a class="button" href="{{REPO}}" rel="noopener" target="_blank">View the repo on GitHub</a>
+    <a class="button ghost" href="{{REPO}}/issues/new?template=add-a-place.yml" rel="noopener" target="_blank">Suggest a place</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Launch Directories. Public domain (CC0). · Used by these websites for their listings: <a href="{{PRODUCT_SITE}}">{{PRODUCT_HOST}}</a></p>
+  <p><a href="#agents">For agents</a> · <a href="{{REPO}}" rel="noopener" target="_blank">GitHub</a> · <a href="/directories.json">directories.json</a> · <a href="/agents.md">agents.md</a> · <a href="/llms.txt">llms.txt</a> · Updated {{UPDATED}}</p>
+</footer>
+</body>
+</html>

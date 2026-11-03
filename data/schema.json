@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LaunchFast free listing directories",
+  "type": "object",
+  "required": [
+    "directories"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "directories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/directory"
+      }
+    }
+  },
+  "$defs": {
+    "directory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "url",
+        "submit_url",
+        "kinds",
+        "accepts",
+        "free",
+        "needs_account",
+        "needs_badge_or_backlink",
+        "queue",
+        "paid_upgrades",
+        "status",
+        "checked",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable slug; never reused."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name as the site writes it."
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "submit_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https?://",
+          "description": "Where a listing starts, when known."
+        },
+        "kinds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "launch-platform",
+              "launch-directory",
+              "alternatives-directory",
+              "app-directory",
+              "ai-directory",
+              "ai-app-store",
+              "mcp-directory",
+              "agent-directory",
+              "api-directory",
+              "awesome-list",
+              "maker-profile",
+              "maker-community",
+              "backlink-service",
+              "review-site",
+              "link-directory",
+              "marketplace",
+              "newsletter",
+              "tool-stack",
+              "news-site",
+              "blog-platform"
+            ]
+          }
+        },
+        "accepts": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "web",
+              "saas",
+              "app",
+              "ios",
+              "mac",
+              "ai-tool",
+              "ai-agent",
+              "api",
+              "mcp",
+              "skill",
+              "claude-plugin",
+              "chatgpt-plugin",
+              "maker"
+            ]
+          }
+        },
+        "free": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "true: a free listing exists. null: not checked."
+        },
+        "needs_account": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "needs_badge_or_backlink": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "For the free tier."
+        },
+        "queue": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Wait for the free tier, in the site's words."
+        },
+        "paid_upgrades": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether paid tiers exist. Never a reason to pay."
+        },
+        "status": {
+          "enum": [
+            "active",
+            "unchecked",
+            "avoid",
+            "down"
+          ],
+          "description": "active: terms read and a free listing works. unchecked: known, terms not read. avoid: read and not worth it. down: did not load."
+        },
+        "checked": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Day the terms were last read."
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+name: Add a place
+description: A directory, launch site, MCP index or app store where a product can be listed for free
+title: "Add: "
+labels: ["add"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Example Directory
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: submit
+    attributes:
+      label: Where you submit a listing
+      description: The submit page, if you know it.
+  - type: checkboxes
+    id: takes
+    attributes:
+      label: What it lists
+      options:
+        - label: Websites
+        - label: SaaS tools
+        - label: Mac apps
+        - label: iPhone apps
+        - label: MCP servers
+        - label: AI tools
+        - label: Makers
+  - type: textarea
+    id: free
+    attributes:
+      label: What the free listing asks for
+      description: An account, a badge or link on your site, a wait. Only what you saw on the site.

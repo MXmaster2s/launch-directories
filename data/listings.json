@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": "longbook",
+    "name": "longbook",
+    "site": "https://longbook.app",
+    "logo": "site/src/longbook-icon.svg"
+  },
+  "listings": [
+    {
+      "directory": "claude-directory",
+      "what": "mcp",
+      "state": "in-review",
+      "url": null,
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "dodo-payments-index",
+      "what": "app",
+      "state": "live",
+      "url": "https://index.dodopayments.com/longbook",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "followx",
+      "what": "app",
+      "state": "live",
+      "url": "https://followx.today/projects/longbook",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "indie-hackers",
+      "what": "app",
+      "state": "live",
+      "url": "https://www.indiehackers.com/product/longbook",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "makermap",
+      "what": "app",
+      "state": "live",
+      "url": "https://www.makermap.lol/Rohthebuilder",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "mcprush",
+      "what": "mcp",
+      "state": "live",
+      "url": "https://mcprush.com/longbook/longbook-mcp",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "official-mcp-registry",
+      "what": "mcp",
+      "state": "live",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers/app.longbook%2Fmcp/versions/latest",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "peerpush",
+      "what": "app",
+      "state": "in-queue",
+      "url": "https://peerpush.com/p/longbook",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "prowl",
+      "what": "mcp",
+      "state": "live",
+      "url": "https://prowl.world/service/longbook-api",
+      "checked": "2026-11-03"
+    },
+    {
+      "directory": "wellknown",
+      "what": "mcp",
+      "state": "live",
+      "url": "https://wellknown.network/agents/longbook",
+      "checked": "2026-11-03"
+    }
+  ]
+}

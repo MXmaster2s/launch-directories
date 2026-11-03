@@ -1,0 +1,17 @@
+name: Correct a place
+description: Something in the list is wrong, out of date, or the place has closed
+title: "Fix: "
+labels: ["fix"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Which place
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what the site says now
+    validations:
+      required: true

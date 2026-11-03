@@ -1,0 +1,1483 @@
+{
+  "$schema": "./schema.json",
+  "directories": [
+    {
+      "id": "activesearchresults",
+      "name": "ActiveSearchResults",
+      "url": "https://www.activesearchresults.com",
+      "submit_url": null,
+      "kinds": [
+        "link-directory"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "A search engine that takes site submissions. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "ai-agents-directory",
+      "name": "AI Agents Directory",
+      "url": "https://aiagentsdirectory.com",
+      "submit_url": "https://aiagentsdirectory.com/submit-agent",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-agent"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "ai-tool-trek",
+      "name": "AI Tool Trek",
+      "url": "https://aitooltrek.com",
+      "submit_url": "https://aitooltrek.com/submit",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": "Reviewed within 72 hours, listed within 15 days",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Listing is removed if the backlink is removed."
+    },
+    {
+      "id": "ai-toolz-dir",
+      "name": "AI Toolz Dir",
+      "url": "https://www.aitoolzdir.com",
+      "submit_url": "https://www.aitoolzdir.com/submit",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": ""
+    },
+    {
+      "id": "alternativeto",
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net",
+      "submit_url": null,
+      "kinds": [
+        "alternatives-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ios",
+        "mac"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Check whether unreleased or TestFlight apps are accepted."
+    },
+    {
+      "id": "api-tracker",
+      "name": "API Tracker",
+      "url": "https://apitracker.io",
+      "submit_url": "https://apitracker.io/submit",
+      "kinds": [
+        "api-directory",
+        "mcp-directory"
+      ],
+      "accepts": [
+        "api",
+        "mcp"
+      ],
+      "free": true,
+      "needs_account": false,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "No payment or backlink needed; every request is reviewed for accuracy. Also takes corrections to existing profiles."
+    },
+    {
+      "id": "awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "submit_url": "https://github.com/punkpeye/awesome-mcp-servers/pulls",
+      "kinds": [
+        "awesome-list"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Listing is a pull request to the README; read CONTRIBUTING first."
+    },
+    {
+      "id": "betalist",
+      "name": "BetaList",
+      "url": "https://betalist.com",
+      "submit_url": null,
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "boost-domain-rating",
+      "name": "Boost Domain Rating",
+      "url": "https://boostdomainrating.com",
+      "submit_url": "https://boostdomainrating.com/boost/submit",
+      "kinds": [
+        "backlink-service"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": false,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "avoid",
+      "checked": "2026-10-28",
+      "notes": "Paid backlink packages, not a free listing."
+    },
+    {
+      "id": "brownbook",
+      "name": "Brownbook",
+      "url": "https://www.brownbook.net",
+      "submit_url": null,
+      "kinds": [
+        "link-directory"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "chatgpt-plugin-directory",
+      "name": "ChatGPT plugin directory",
+      "url": "https://chatgpt.com/apps",
+      "submit_url": "https://platform.openai.com/plugins",
+      "kinds": [
+        "ai-app-store"
+      ],
+      "accepts": [
+        "mcp",
+        "chatgpt-plugin"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Needs identity verification of the org, a domain challenge at /.well-known/openai-apps-challenge, readOnlyHint/destructiveHint/openWorldHint on every tool, reviewer credentials with no MFA or email codes, 5 positive and 3 negative test cases, and release notes. No plans or upgrades shown in the plugin; the name may not end in MCP or Plugin."
+    },
+    {
+      "id": "claude-directory",
+      "name": "Claude directory",
+      "url": "https://claude.ai/directory",
+      "submit_url": "https://claude.ai/directory/manage",
+      "kinds": [
+        "ai-app-store"
+      ],
+      "accepts": [
+        "mcp",
+        "claude-plugin"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": "Weeks of review",
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Connectors need a title and readOnlyHint/destructiveHint on every tool, plus reviewer test credentials for a populated account. Plugins come from a public GitHub repo (README of 40+ words, LICENSE) with GitHub connected on claude.ai. 10 submissions a day."
+    },
+    {
+      "id": "code-market",
+      "name": "Code.market",
+      "url": "https://code.market",
+      "submit_url": null,
+      "kinds": [
+        "marketplace"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "codehype",
+      "name": "CodeHype",
+      "url": "https://www.codehype.ai",
+      "submit_url": "https://www.codehype.ai/submit",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": ""
+    },
+    {
+      "id": "comparecamp",
+      "name": "CompareCamp",
+      "url": "https://comparecamp.com",
+      "submit_url": null,
+      "kinds": [
+        "review-site"
+      ],
+      "accepts": [
+        "saas"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "dang-ai",
+      "name": "Dang.ai",
+      "url": "https://dang.ai",
+      "submit_url": "https://dang.ai/new",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Submitting needs a login. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "deeplaunch",
+      "name": "DeepLaunch",
+      "url": "https://deeplaunch.io",
+      "submit_url": "https://deeplaunch.io/submit",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": "5 free launch slots a day; pick a date after badge check",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Badge is re-checked; removing it turns your link nofollow."
+    },
+    {
+      "id": "devhunt",
+      "name": "DevHunt",
+      "url": "https://devhunt.org",
+      "submit_url": null,
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "api"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Weekly launches of developer tools. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "dodo-payments-index",
+      "name": "Dodo Payments Index",
+      "url": "https://index.dodopayments.com",
+      "submit_url": null,
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Claimable profile. No self-edit for free listings; changes go by email to support@dodopayments.com."
+    },
+    {
+      "id": "dododirectory",
+      "name": "DodoDirectory",
+      "url": "https://dododirectory.com",
+      "submit_url": "https://dododirectory.com/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": "About 2 weeks",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Badge must stay on your site; removing it deletes the listing."
+    },
+    {
+      "id": "dofollow-tools",
+      "name": "Dofollow.Tools",
+      "url": "https://dofollow.tools",
+      "submit_url": "https://dofollow.tools/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": "7 days",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": ""
+    },
+    {
+      "id": "dokeyai",
+      "name": "DokeyAI",
+      "url": "https://dokeyai.com",
+      "submit_url": "https://dokeyai.com/en/submit",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "avoid",
+      "checked": "2026-10-28",
+      "notes": "Free tier needs a link to a third-party partner's product in your footer."
+    },
+    {
+      "id": "fazier",
+      "name": "Fazier",
+      "url": "https://fazier.com",
+      "submit_url": "https://fazier.com/submit",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": ""
+    },
+    {
+      "id": "feedmystartup",
+      "name": "FeedMyStartup",
+      "url": "https://feedmystartup.com",
+      "submit_url": "https://feedmystartup.com/submit-your-app/",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Separate forms for apps and startups. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "followx",
+      "name": "FollowX",
+      "url": "https://followx.today",
+      "submit_url": null,
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Offers a badge."
+    },
+    {
+      "id": "futurepedia",
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io",
+      "submit_url": null,
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "g2",
+      "name": "G2",
+      "url": "https://www.g2.com",
+      "submit_url": null,
+      "kinds": [
+        "review-site"
+      ],
+      "accepts": [
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Useful once there are real user reviews. Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "glama",
+      "name": "Glama",
+      "url": "https://glama.ai/mcp/servers",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "hashnode",
+      "name": "Hashnode",
+      "url": "https://hashnode.com",
+      "submit_url": null,
+      "kinds": [
+        "blog-platform"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "avoid",
+      "checked": "2026-11-03",
+      "notes": "A blogging platform, not a directory. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "hotvsnot",
+      "name": "HotVsNot",
+      "url": "http://www.hotvsnot.com",
+      "submit_url": null,
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "down",
+      "checked": "2026-10-28",
+      "notes": "Did not answer on 2026-10-28."
+    },
+    {
+      "id": "huzzler",
+      "name": "Huzzler",
+      "url": "https://huzzler.so",
+      "submit_url": "https://huzzler.so/submit-product",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": true,
+      "queue": "About 72 days",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Free plan needs a Huzzler badge on your homepage."
+    },
+    {
+      "id": "hype-star",
+      "name": "Hype Star",
+      "url": "https://hypestar.org",
+      "submit_url": "https://hypestar.org/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": false,
+      "needs_badge_or_backlink": true,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "No registration, no card. New free listings need a Hype Star badge on your site."
+    },
+    {
+      "id": "indie-hackers",
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com",
+      "submit_url": "https://www.indiehackers.com/products",
+      "kinds": [
+        "maker-community"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "indiemakerlist",
+      "name": "IndieMakerList",
+      "url": "https://indiemakerlist.com",
+      "submit_url": "https://indiemakerlist.com/submit/",
+      "kinds": [
+        "maker-profile"
+      ],
+      "accepts": [
+        "maker"
+      ],
+      "free": true,
+      "needs_account": false,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "A maker profile, not a product page. Send the template from the submit page as a DM to @johnrush on X."
+    },
+    {
+      "id": "kittylaunch",
+      "name": "KittyLaunch",
+      "url": "https://kittylaunch.com",
+      "submit_url": "https://kittylaunch.com/new/product",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "launch-llama",
+      "name": "Launch Llama",
+      "url": "https://tools.launchllama.co",
+      "submit_url": "https://tools.launchllama.co/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-11-03",
+      "notes": "Free permanent listing with its own product page, upvotes and a dofollow link; featured tier is paid. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "linkcentre",
+      "name": "LinkCentre",
+      "url": "https://www.linkcentre.com",
+      "submit_url": null,
+      "kinds": [
+        "link-directory"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "General web directory. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "macupdate",
+      "name": "MacUpdate",
+      "url": "https://www.macupdate.com",
+      "submit_url": null,
+      "kinds": [
+        "app-directory"
+      ],
+      "accepts": [
+        "mac"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "magicbox",
+      "name": "MagicBox",
+      "url": "https://magicbox.tools",
+      "submit_url": "https://magicbox.tools/submit",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "makermap",
+      "name": "MakerMap",
+      "url": "https://www.makermap.lol",
+      "submit_url": "https://www.makermap.lol/me",
+      "kinds": [
+        "maker-profile"
+      ],
+      "accepts": [
+        "maker"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Products on your profile are free; map placement and rank are paid."
+    },
+    {
+      "id": "mcp-so",
+      "name": "mcp.so",
+      "url": "https://mcp.so",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "mcprush",
+      "name": "mcprush",
+      "url": "https://mcprush.com",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp",
+        "skill"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Lists MCP servers and skills with a grade; badge optional."
+    },
+    {
+      "id": "microlaunch",
+      "name": "Microlaunch",
+      "url": "https://microlaunch.net",
+      "submit_url": null,
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "neeed",
+      "name": "neeed.directory",
+      "url": "https://neeed.directory",
+      "submit_url": "https://neeed.directory/pricing",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ios"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Free with their badge on your site, or paid once with no badge."
+    },
+    {
+      "id": "neil-patel-ai-tools",
+      "name": "Neil Patel AI tools",
+      "url": "https://aitools.neilpatel.com",
+      "submit_url": null,
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "down",
+      "checked": "2026-11-03",
+      "notes": "Redirects to ubersuggest.com/en/apps-integrations; the directory looks gone. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "official-mcp-registry",
+      "name": "Official MCP Registry",
+      "url": "https://registry.modelcontextprotocol.io",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Publish with the mcp-publisher CLI; the server name's namespace must be verified (GitHub or DNS)."
+    },
+    {
+      "id": "peerpush",
+      "name": "PeerPush",
+      "url": "https://peerpush.com",
+      "submit_url": null,
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": "About 7 weeks in the free launch queue",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": ""
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com",
+      "submit_url": "https://www.producthunt.com/posts/new",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ios",
+        "mac",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "prowl",
+      "name": "Prowl",
+      "url": "https://prowl.world",
+      "submit_url": "https://prowl.world/app",
+      "kinds": [
+        "agent-directory",
+        "api-directory"
+      ],
+      "accepts": [
+        "api",
+        "mcp",
+        "saas"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": false,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Entering a domain runs a free check and creates a listing. Claim it with a DNS TXT record; the score is capped at 75 until verified. Renames go to agent@prowl.world."
+    },
+    {
+      "id": "pulsemcp",
+      "name": "PulseMCP",
+      "url": "https://www.pulsemcp.com",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "ramen-tools",
+      "name": "Ramen Tools",
+      "url": "https://ramen.tools",
+      "submit_url": null,
+      "kinds": [
+        "tool-stack"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Shows the tools indie makers use. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "roozna",
+      "name": "Roozna",
+      "url": "https://roozna.com",
+      "submit_url": "https://roozna.com/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "saashub",
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com",
+      "submit_url": null,
+      "kinds": [
+        "alternatives-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "scrolllaunch",
+      "name": "ScrollLaunch",
+      "url": "https://www.scrolllaunch.com",
+      "submit_url": "https://www.scrolllaunch.com/pricing",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Advertises a free launch; terms not read yet."
+    },
+    {
+      "id": "sidebar",
+      "name": "Sidebar",
+      "url": "https://sidebar.io",
+      "submit_url": "https://sidebar.io/submit",
+      "kinds": [
+        "newsletter"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Five design links a day; submitting needs an account. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "sideprojectors",
+      "name": "SideProjectors",
+      "url": "https://www.sideprojectors.com",
+      "submit_url": null,
+      "kinds": [
+        "marketplace"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "A marketplace for buying and selling side projects. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "smithery",
+      "name": "Smithery",
+      "url": "https://smithery.ai",
+      "submit_url": null,
+      "kinds": [
+        "mcp-directory"
+      ],
+      "accepts": [
+        "mcp"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "stackshare",
+      "name": "StackShare",
+      "url": "https://stackshare.io",
+      "submit_url": null,
+      "kinds": [
+        "tool-stack"
+      ],
+      "accepts": [
+        "saas",
+        "api"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Rate-limited automated requests (429). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "startup-fame",
+      "name": "Startup Fame",
+      "url": "https://startupfa.me",
+      "submit_url": null,
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Rate-limited automated requests (429). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "startup-stash",
+      "name": "Startup Stash",
+      "url": "https://startupstash.com",
+      "submit_url": "https://startupstash.com/add-listing/",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "saas"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Directory of tools and resources for startups. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "theresanaiforthat",
+      "name": "There's An AI For That",
+      "url": "https://theresanaiforthat.com",
+      "submit_url": null,
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "toolify",
+      "name": "Toolify",
+      "url": "https://toolify.ai",
+      "submit_url": null,
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "toolpilot",
+      "name": "ToolPilot",
+      "url": "https://www.toolpilot.ai",
+      "submit_url": "https://www.toolpilot.ai/pages/submit-your-ai-tool",
+      "kinds": [
+        "ai-directory"
+      ],
+      "accepts": [
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": null,
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "AI tools only. A link back is mandatory for free listings."
+    },
+    {
+      "id": "twelve-tools",
+      "name": "Twelve Tools",
+      "url": "https://twelve.tools",
+      "submit_url": "https://twelve.tools/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app",
+        "ai-tool"
+      ],
+      "free": true,
+      "needs_account": null,
+      "needs_badge_or_backlink": true,
+      "queue": "Reviewed within 72 hours",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Free tier needs a backlink on your homepage or footer; paid tier skips it."
+    },
+    {
+      "id": "uneed",
+      "name": "Uneed",
+      "url": "https://www.uneed.best",
+      "submit_url": null,
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "uno-directory",
+      "name": "Uno Directory",
+      "url": "https://uno.directory",
+      "submit_url": "https://uno.directory/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": null,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": ""
+    },
+    {
+      "id": "viesearch",
+      "name": "Viesearch",
+      "url": "https://viesearch.com",
+      "submit_url": "https://viesearch.com/submit",
+      "kinds": [
+        "link-directory"
+      ],
+      "accepts": [
+        "web"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Community search engine; offers reciprocal-link listings. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "wellknown",
+      "name": "Wellknown",
+      "url": "https://wellknown.network",
+      "submit_url": null,
+      "kinds": [
+        "agent-directory"
+      ],
+      "accepts": [
+        "mcp",
+        "api"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "active",
+      "checked": "2026-10-28",
+      "notes": "Claim to become the verified owner; offers a badge."
+    },
+    {
+      "id": "what-launched-today",
+      "name": "What Launched Today",
+      "url": "https://whatlaunched.today",
+      "submit_url": "https://whatlaunched.today/dashboard/submit",
+      "kinds": [
+        "launch-platform"
+      ],
+      "accepts": [
+        "web",
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Submitting needs an account; paid tiers exist. From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    },
+    {
+      "id": "yourstory",
+      "name": "YourStory",
+      "url": "https://yourstory.com/companies",
+      "submit_url": null,
+      "kinds": [
+        "news-site"
+      ],
+      "accepts": [
+        "saas",
+        "app"
+      ],
+      "free": null,
+      "needs_account": null,
+      "needs_badge_or_backlink": null,
+      "queue": null,
+      "paid_upgrades": null,
+      "status": "unchecked",
+      "checked": null,
+      "notes": "Company profiles on a startup news site. Refused automated requests (403). From the post \"30 websites to get free 'Do Follow' backlinks\" (Miracle Nnamdi)."
+    }
+  ]
+}
