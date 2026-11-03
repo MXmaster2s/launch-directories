@@ -4,6 +4,9 @@ What changed in the list and the repository, newest first.
 
 ## 2026-11-03
 
+- `www.launchdirectories.fyi` redirects to `launchdirectories.fyi` with a 301, keeping the
+  path and query string (a Cloudflare Single Redirect from the "WWW to root" template).
+
 - Credit for the research and lead generation to Lighteningly, in the site footer and the
   README, each link with its own UTM tags (`utm_content=site-footer` and `github-readme`).
 
