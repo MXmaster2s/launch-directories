@@ -49,6 +49,14 @@ class DataTests(unittest.TestCase):
         self.assertIn("issues/new?template=add-a-place.yml", page)
         self.assertTrue((ROOT / ".github" / "ISSUE_TEMPLATE" / "add-a-place.yml").exists())
 
+    def test_credit_to_lighteningly_carries_utm_tags(self):
+        page, _ = build_site.render(load(), load_listings(), "test")
+        readme = (ROOT / "README.md").read_text()
+        for text, content in ((page, "site-footer"), (readme, "github-readme")):
+            self.assertIn("lighteningly.com/?utm_source=launch-directories", text)
+            self.assertIn("utm_medium=referral", text)
+            self.assertIn(f"utm_content={content}", text)
+
     def test_agent_guide_names_files_that_exist(self):
         guide = (ROOT / "AGENTS.md").read_text()
         for path in ("data/directories.json", "data/schema.json", "plans/TEMPLATE.md", "scripts/build_readme.py"):

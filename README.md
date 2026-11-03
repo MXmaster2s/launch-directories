@@ -204,6 +204,11 @@ per place and kind (`app`, `mcp`, `plugin`), with a state (`live`, `in-review`,
 `in-queue`), the listing's URL and the day it was last seen. The page shows each as a
 badge with the product's icon on that place's card.
 
+## Credits
+
+Research and lead generation by
+[Lighteningly](https://lighteningly.com/?utm_source=launch-directories&utm_medium=referral&utm_campaign=credit&utm_content=github-readme).
+
 ## Licence
 
 The list is dedicated to the public domain under [CC0 1.0](LICENSE).

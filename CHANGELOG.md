@@ -4,6 +4,9 @@ What changed in the list and the repository, newest first.
 
 ## 2026-11-03
 
+- Credit for the research and lead generation to Lighteningly, in the site footer and the
+  README, each link with its own UTM tags (`utm_content=site-footer` and `github-readme`).
+
 - The site has its own domain, https://launchdirectories.fyi (Cloudflare Pages project
   `launch-directories`, with launch-directories.pages.dev as a fallback address). Canonical
   links, the sitemap, the agent prompt and the README use the new domain.

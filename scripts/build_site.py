@@ -19,6 +19,9 @@ from directories import DATA, LISTINGS, ROOT, SCHEMA, listing_problems, load, lo
 SRC = ROOT / "site" / "src"
 DIST = ROOT / "site" / "dist"
 SITE = os.environ.get("SITE", "https://launchdirectories.fyi").rstrip("/")
+# Credit for the research and lead generation behind the list. The UTM tags let
+# Lighteningly see the visits: utm_content says which place the link sat on.
+CREDIT_URL = "https://lighteningly.com/?utm_source=launch-directories&utm_medium=referral&utm_campaign=credit&utm_content=site-footer"
 REPO = os.environ.get("REPO", "https://github.com/MXmaster2s/launch-directories").rstrip("/")
 
 # "What have you made?" chips: label, key, and the `accepts` values that put an entry
@@ -124,6 +127,7 @@ def render(directories, listings, version):
     values = {
         "SITE": SITE,
         "REPO": REPO,
+        "CREDIT_URL": html.escape(CREDIT_URL),
         "VERSION": version,
         "COUNT": str(len(listed)),
         "CHECKED": str(checked),
