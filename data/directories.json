@@ -883,6 +883,27 @@
       "notes": "Lists MCP servers and skills with a grade; badge optional."
     },
     {
+      "id": "mediapronet",
+      "name": "MEDIAPRONET",
+      "url": "https://mediapronet.com",
+      "submit_url": "https://mediapronet.com/submit",
+      "kinds": [
+        "launch-directory"
+      ],
+      "accepts": [
+        "web",
+        "saas"
+      ],
+      "free": true,
+      "needs_account": true,
+      "needs_badge_or_backlink": true,
+      "queue": "At least 7 days",
+      "paid_upgrades": true,
+      "status": "active",
+      "checked": "2026-11-04",
+      "notes": "Curated directory of new startups, SaaS tools and indie products. The free listing needs an account and the MEDIAPRONET badge on your homepage, and is shown as Unverified. Paid plans are one-time and publish at once."
+    },
+    {
       "id": "microlaunch",
       "name": "Microlaunch",
       "url": "https://microlaunch.net",

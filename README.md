@@ -41,7 +41,7 @@ Paid upgrades exist almost everywhere. They are noted, never recommended.
 
 <!-- directories:start -->
 
-25 checked free listings, 40 still to check, 5 to skip.
+26 checked free listings, 40 still to check, 5 to skip.
 
 ### AI app stores and MCP directories
 
@@ -69,6 +69,7 @@ Paid upgrades exist almost everywhere. They are noted, never recommended.
 | [Huzzler](https://huzzler.so/submit-product) | web, saas, app | yes | yes | About 72 days | 2026-10-28 | Free plan needs a Huzzler badge on your homepage. |
 | [Hype Star](https://hypestar.org/submit) | web, saas, app | no | yes |  | 2026-10-28 | No registration, no card. New free listings need a Hype Star badge on your site. |
 | [Launch Llama](https://tools.launchllama.co/submit) | web, saas, ai-tool | ? | ? |  | 2026-11-03 | Free permanent listing with its own product page, upvotes and a dofollow link; featured tier is paid. From the post "30 websites to get free 'Do Follow' backlinks" (Miracle Nnamdi). |
+| [MEDIAPRONET](https://mediapronet.com/submit) | web, saas | yes | yes | At least 7 days | 2026-11-04 | Curated directory of new startups, SaaS tools and indie products. The free listing needs an account and the MEDIAPRONET badge on your homepage, and is shown as Unverified. Paid plans are one-time and publish at once. |
 | [neeed.directory](https://neeed.directory/pricing) | web, saas, app, ios | ? | yes |  | 2026-10-28 | Free with their badge on your site, or paid once with no badge. |
 | [PeerPush](https://peerpush.com) | web, saas, app, ai-tool | yes | ? | About 7 weeks in the free launch queue | 2026-10-28 |  |
 | [Twelve Tools](https://twelve.tools/submit) | web, saas, app, ai-tool | ? | yes | Reviewed within 72 hours | 2026-10-28 | Free tier needs a backlink on your homepage or footer; paid tier skips it. |
