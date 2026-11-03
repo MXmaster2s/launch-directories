@@ -4,9 +4,9 @@ Every place we know of where an app, an MCP server, an AI tool or its maker can 
 listed for free, with what the free listing actually asks for: an account, a badge on
 your site, a wait in a queue. Checked by hand, dated, and kept in one data file.
 
-**Site:** https://launch-directories.pages.dev (the list with filters, plus
-[`directories.json`](https://launch-directories.pages.dev/directories.json) and
-[`agents.md`](https://launch-directories.pages.dev/agents.md) for agents).
+**Site:** https://launchdirectories.fyi (the list with filters, plus
+[`directories.json`](https://launchdirectories.fyi/directories.json) and
+[`agents.md`](https://launchdirectories.fyi/agents.md) for agents).
 
 Use it to plan where a new product goes, in what order, and what to prepare before you
 start. Coding agents can do that planning for you: they read `AGENTS.md`.

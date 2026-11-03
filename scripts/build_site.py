@@ -18,7 +18,7 @@ from directories import DATA, LISTINGS, ROOT, SCHEMA, listing_problems, load, lo
 
 SRC = ROOT / "site" / "src"
 DIST = ROOT / "site" / "dist"
-SITE = os.environ.get("SITE", "https://launch-directories.pages.dev").rstrip("/")
+SITE = os.environ.get("SITE", "https://launchdirectories.fyi").rstrip("/")
 REPO = os.environ.get("REPO", "https://github.com/MXmaster2s/launch-directories").rstrip("/")
 
 # "What have you made?" chips: label, key, and the `accepts` values that put an entry

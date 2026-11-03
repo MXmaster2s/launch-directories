@@ -4,6 +4,10 @@ What changed in the list and the repository, newest first.
 
 ## 2026-11-03
 
+- The site has its own domain, https://launchdirectories.fyi (Cloudflare Pages project
+  `launch-directories`, with launch-directories.pages.dev as a fallback address). Canonical
+  links, the sitemap, the agent prompt and the README use the new domain.
+
 - The repository is public as `MXmaster2s/launch-directories`, started from a single clean
   commit. The entries below are the history it was built from.
 

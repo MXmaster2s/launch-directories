@@ -1,8 +1,8 @@
 # Launch Directories: guide for agents
 
 You are planning free listings for a product: an app, an MCP server, an AI tool, or a
-maker's profile. The list is at https://launch-directories.pages.dev/directories.json
-and every field is defined in https://launch-directories.pages.dev/schema.json.
+maker's profile. The list is at https://launchdirectories.fyi/directories.json
+and every field is defined in https://launchdirectories.fyi/schema.json.
 
 ## Plan
 
