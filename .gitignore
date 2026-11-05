@@ -2,3 +2,7 @@
 __pycache__/
 site/dist/
 .wrangler/
+# agent files: .claude/skills/ and .claude/settings.json are committed; the rest stays local
+.claude/*
+!.claude/skills/
+!.claude/settings.json

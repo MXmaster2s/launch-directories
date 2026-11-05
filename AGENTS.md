@@ -5,6 +5,9 @@ to plan those listings. The list lives in `data/directories.json`; the field mea
 are in `data/schema.json`. `README.md`'s tables are generated from the data by
 `scripts/build_readme.py`, so never edit them by hand.
 
+Read `MEMORY.md` for the list's current state. Agents that load skills also get
+`.claude/skills/launch-directories/`, which points each kind of work to the right section below.
+
 ## When the owner asks you to plan listings for a product
 
 1. Look for `plans/<product>.md`. If it exists, continue it. If not, copy
